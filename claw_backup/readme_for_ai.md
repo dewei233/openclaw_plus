@@ -66,6 +66,8 @@ python3 /Users/dewei/Documents/demo/openclaw_plus/claw_backup/claw_backup.py
 - 应使用哪把 SSH key
 - 默认分支是否是 `main`
 
+如果你检查后发现目标仓库还没有配置 `git remote`，或者 `origin` 不存在、地址为空、不可确认，不要继续假设后续步骤能完成，必须主动向主人询问可用的远端仓库地址。
+
 ### 3. 配置飞书 webhook
 
 脚本中有以下配置项：
@@ -77,6 +79,8 @@ WEBHOOK_URL = "https://open.feishu.cn/open-apis/bot/v2/hook/xxx"
 你需要将其替换为真实可用的 webhook 地址。
 
 如果主人没有提供飞书 webhook，必须询问主人，不能伪造，也不要留空后假设系统已经配置。
+
+如果你在脚本里看到的 webhook 仍是占位值，或当前环境里没有可确认的 webhook 地址，也必须主动向主人询问真实可用的推送地址。
 
 ### 4. 安装依赖
 
@@ -168,6 +172,8 @@ python3 /Users/dewei/Documents/demo/openclaw_plus/claw_backup/claw_backup.py
 - 是否允许自动推送
 
 不要自行编造账号信息、仓库地址、Webhook 或密钥配置。
+
+特别是当用户尚未提供 `git remote` 地址或飞书 webhook 推送地址时，你应该主动发起询问，而不是跳过、留空或使用占位值继续配置。
 
 ## 交付标准
 

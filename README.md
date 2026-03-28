@@ -1,8 +1,8 @@
-# openclaw_plus
+# 🦞✨ openclaw_plus
 
 这是一个给 OpenClaw 增强能力的小型功能仓库。目前包含两个核心功能：
 
-## 1. OpenClaw 主目录自动备份
+## 💾 1. OpenClaw 主目录自动备份
 
 位置：
 
@@ -19,7 +19,7 @@
 
 适合用来做 OpenClaw 配置、插件和本地状态的持续备份。
 
-## 2. 飞书命令执行审批
+## ✅ 2. 飞书命令执行审批
 
 位置：
 
@@ -31,7 +31,7 @@
 
 它解决的问题是 OpenClaw 默认在飞书中不支持 exec approval。
 
-## 推荐使用方式
+## 🚀 推荐使用方式
 
 不推荐你自己手动看代码、手工 patch、手工配配置。
 
@@ -49,7 +49,7 @@
 - 哪些配置项必须向主人询问
 - 如何验证功能是否真正可用
 
-## 推荐工作流
+## 🛠️ 推荐工作流
 
 1. 选择你要启用的功能
 2. 打开对应目录下的 `readme_for_ai.md`
@@ -65,7 +65,7 @@
 - OpenClaw 安装路径
 - 是否允许重启进程
 
-## 仓库结构
+## 📁 仓库结构
 
 - [`claw_backup`](/Users/dewei/Documents/demo/openclaw_plus/claw_backup)
   OpenClaw 主目录备份能力
